@@ -44,14 +44,14 @@ postList: detailed
 
 纯净版没有评论区、背景大图、弹窗消息、动态页面标题、私密文章等模块功能，所以想 **留言** 和我交流，可以直接去右上角的留言区。
 
-> 如果本页面无法访问，这里提供所有的地址方便跳转
+> 如果本页面无法访问，这里提供所有的地址方便跳转，主地址的内容一定是最新的，其他的可能落后一两个版本，也可能是最新的，去解决于我更新时的网络
 
 - 完整版主地址（快）：<https://notes.youngkbt.cn/>
-- 完整版 GitHub Pages 地址（中、快）：<https://github.notes.youngkbt.cn/>
-- 完整版 Gitee Pages 地址（快）：<http://gitee.notes.youngkbt.cn/>
+- 完整版 GitHub Pages 地址（中、快）：<https://github.youngkbt.cn/>
+- 完整版 Gitee Pages 地址（快）：<https://kele-bingtang.gitee.io/>
 - 完整版个人服务器地址（慢）：<https://server.notes.youngkbt.cn/>
 - 纯净版主地址（没有花里胡哨的效果，快）：<https://pure.notes.youngkbt.cn/>
-- 纯净版 GitHub Pages 地址（没有花里胡哨的效果，快）：<http://github.youngkbt.cn/pure-blog/>
+- 纯净版 GitHub Pages 地址（没有花里胡哨的效果，快）：<https://github.youngkbt.cn/pure-blog/>
 
 <ClientOnly>
   <WebInfo />
