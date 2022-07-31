@@ -1,16 +1,13 @@
-const nav = require("../common/nav.js");
-const footer = require("../common/footer.js");
-const htmlModules = require("./htmlModules.js");
-const {
-  readFileList,
-  readTotalFileWords,
-  readEachFileWords,
-} = require("../webSiteInfo/readFile.js");
+import { VdoingThemeConfig } from "vuepress-theme-vdoing/types";
 
-const { penName, link, avatar, name, slogan } = require("../common/info");
+import nav from '../common/nav';
+import footer from '../common/footer';
+// import htmlModules from './htmlModules' // 自定义插入的html块
+import { readFileList, readTotalFileWords, readEachFileWords } from '../webSiteInfo/readFile';
+import { penName, link, avatar, name, slogan } from '../common/info';
 
 // 主题配置
-module.exports = {
+export default <VdoingThemeConfig> {
   nav, // 导航栏
   sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
   logo: "/img/index/logo.png", // 导航栏logo
@@ -26,7 +23,7 @@ module.exports = {
   // category: false, // 是否打开分类功能，默认true。 如打开，会做的事情有：1. 自动生成的frontmatter包含分类字段 2.页面中显示与分类相关的信息和模块 3.自动生成分类页面（在@pages文件夹）。如关闭，则反之。
   // tag: false, // 是否打开标签功能，默认true。 如打开，会做的事情有：1. 自动生成的frontmatter包含标签字段 2.页面中显示与标签相关的信息和模块 3.自动生成标签页面（在@pages文件夹）。如关闭，则反之。
   // archive: false, // 是否打开归档功能，默认true。 如打开，会做的事情有：1.自动生成归档页面（在@pages文件夹）。如关闭，则反之。
-  categoryText: "技术随笔", // 碎片化文章（_posts文件夹的文章）预设生成的分类值，默认'随笔'
+  categoryText: "随笔", // 碎片化文章（_posts文件夹的文章）预设生成的分类值，默认'随笔'
 
   // pageStyle: 'card', // 页面风格，card 时背景显示灰色衬托出卡片样式，line 时背景显示纯色，并且部分模块带线条边框（未设置 bodyBgImg 时才生效），默认 card
   // defaultMode: 'auto', // 默认主题外观模式，用户未在页面手动修改过模式时才生效，否则以用户设置的模式为准，可选值：'auto' | 'light' | 'dark' | 'read'

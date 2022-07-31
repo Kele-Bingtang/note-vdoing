@@ -1,16 +1,17 @@
 // nav
-const javaNav = require("../nav/javaNav");
-const databaseNav = require("../nav/databaseNav");
-const frameNav = require("../nav/frameNav");
-const springNav = require("../nav/springNav")
-const developer = require("../nav/developer");
+import javaNav from '../nav/javaNav'
+import databaseNav from '../nav/databaseNav'
+import frameNav from '../nav/frameNav'
+import springNav from '../nav/springNav'
+import developer from '../nav/developer'
 // 微服务统一放在框架里
-// const cloudNav = require("../nav/cloudNav");
-const toolNav = require("../nav/toolNav");
-const frontEnd = require("../nav/frontEnd");
-const indexNav = require("../nav/indexNav");
-const moreNav = require("../nav/moreNav");
-module.exports = [
+// import cloudNav from '../nav/cloudNav'
+import toolNav from '../nav/toolNav'
+import frontEnd from '../nav/frontEnd'
+import indexNav from '../nav/indexNav'
+import moreNav from '../nav/moreNav'
+
+export default [
   {
     text: '首页', link: '/'
   },

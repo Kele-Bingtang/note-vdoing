@@ -1,10 +1,13 @@
+import { UserPlugins } from 'vuepress/config'
+import dayjs from 'dayjs'
+
 // 插件配置
-module.exports = [
+export default <UserPlugins> [
   // 自定义插件，即本地插件
   [
     {
       name: 'custom-plugins',
-      globalUIComponents: ["PageInfo", "BlockToggle", "GlobalTip", "Aplayer", "Twikoo", "Fantasy"] // 2.x 版本 globalUIComponents 改名为 clientAppRootComponentFiles
+      globalUIComponents: ["PageInfo", "BlockToggle", "GlobalTip", "Twikoo", "Fantasy"] // 2.x 版本 globalUIComponents 改名为 clientAppRootComponentFiles
     }
   ],
   // 本地插件
@@ -84,7 +87,8 @@ module.exports = [
   [
     'vuepress-plugin-baidu-tongji', // 百度统计
     {
-      hm: 'efdb43e9c4335da1fbabf3840b82c3ed',
+      // hm: 'efdb43e9c4335da1fbabf3840b82c3ed',
+      hm: '267c5680c2ffb468ca29c45ffe6801da',
     },
   ],
   // [
@@ -130,7 +134,6 @@ module.exports = [
     '@vuepress/last-updated', // "上次更新"时间格式
     {
       transformer: (timestamp, lang) => {
-        const dayjs = require('dayjs') // https://day.js.org/
         return dayjs(timestamp).format('YYYY/MM/DD, HH:mm:ss');
       },
     },

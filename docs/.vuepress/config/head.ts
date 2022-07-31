@@ -1,7 +1,8 @@
-const baidutj = require("../common/baidutj.js");
+import { HeadTags } from 'vuepress/config';
+import baidutj from '../common/baidutj.js';
 
 // head
-module.exports = [
+export default <HeadTags>[
   // 注入到页面<head> 中的标签，格式[tagName, { attrName: attrValue }, innerHTML?]
   ['link', { rel: 'shortcut icon', href: '/img/favicon.ico' }], //favicons，资源放在public文件夹
 

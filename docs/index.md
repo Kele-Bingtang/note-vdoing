@@ -36,6 +36,23 @@ postList: detailed
 <!-- <img src="/img/panda-waving.png" class="panda no-zoom" style="width: 130px;height: 115px;opacity: 0.8;margin-bottom: -4px;padding-bottom:0;position: fixed;bottom: 0;left: 0.5rem;z-index: 1;"> -->
 
 
+本地址是完整版，偏向博客风格。
+
+如果你想访问纯净版，请跳转到 <https://pure.notes.youngkbt.cn/>
+
+纯净版的目的是为了能更沉浸式的阅读文章，整个页面望去都是文档，没有其他花里胡哨的动态效果，更偏向于文档风格，同时访问速度稍微快一点。
+
+纯净版没有评论区、背景大图、弹窗消息、动态页面标题、私密文章等模块功能，所以想 **留言** 和我交流，可以直接去右上角的留言区。
+
+> 如果本页面无法访问，这里提供所有的地址方便跳转
+
+- 完整版主地址（快）：<https://notes.youngkbt.cn/>
+- 完整版 GitHub Pages 地址（中、快）：<https://github.notes.youngkbt.cn/>
+- 完整版 Gitee Pages 地址（快）：<http://gitee.notes.youngkbt.cn/>
+- 完整版个人服务器地址（慢）：<https://server.notes.youngkbt.cn/>
+- 纯净版主地址（没有花里胡哨的效果，快）：<https://pure.notes.youngkbt.cn/>
+- 纯净版 GitHub Pages 地址（没有花里胡哨的效果，快）：<http://github.youngkbt.cn/pure-blog/>
+
 <ClientOnly>
   <WebInfo />
   <IndexBigImg />

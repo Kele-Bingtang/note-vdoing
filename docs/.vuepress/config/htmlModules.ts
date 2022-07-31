@@ -1,3 +1,6 @@
+// 目前该文件没有用到
+
+import { VdoingThemeConfig } from 'vuepress-theme-vdoing/types'
 /** 插入自定义html模块 (可用于插入广告模块等)
  * {
  *   homeSidebarB: htmlString, 首页侧边栏底部
@@ -18,7 +21,7 @@
  * ②注：windowLB 和 windowRB：1.展示区块宽高最大是200*200px。2.请给自定义元素定一个不超过200px的固定宽高。3.在屏宽小于960px时无论如何都不会显示。
  */
 
-module.exports = {
+ const htmlModule: VdoingThemeConfig['htmlModules'] = {
   homeSidebarB:
     `<div style="padding: 0.95rem; font-size: 0.875rem;">
       <div style="text-align: center; color: #888; font-weight: bold; padding: 0 0 10px 0;">
@@ -89,38 +92,38 @@ module.exports = {
   //     <script>
   //         (adsbygoogle = window.adsbygoogle || []).push({});
   //     </script>`,
-  sidebarB:
-    `<!-- 正方形 -->
-      <ins class="adsbygoogle"
-          style="display:block"
-          data-ad-client="ca-pub-7828333725993554"
-          data-ad-slot="3508773082"
-          data-ad-format="auto"
-          data-full-width-responsive="true"></ins>
-      <script>
-          (adsbygoogle = window.adsbygoogle || []).push({});
-      </script>`,
-  pageT:
-    `<!-- 固定100% * 90px可显示，max-height:90px未见显示-->
-     <ins class="adsbygoogle"
-          style="display:inline-block;width:100%;max-height:90px"
-          data-ad-client="ca-pub-7828333725993554"
-          data-ad-slot="6625304284"></ins>
-      <script>
-          (adsbygoogle = window.adsbygoogle || []).push({});
-      </script>`,
-  // pageTshowMode: 'article',
-  pageB:
-    `<!-- 横向自适应 -->
-      <ins class="adsbygoogle"
-          style="display:block"
-          data-ad-client="ca-pub-7828333725993554"
-          data-ad-slot="6620245489"
-          data-ad-format="auto"
-          data-full-width-responsive="true"></ins>
-      <script>
-          (adsbygoogle = window.adsbygoogle || []).push({});
-      </script>`,
+  // sidebarB:
+  //   `<!-- 正方形 -->
+  //     <ins class="adsbygoogle"
+  //         style="display:block"
+  //         data-ad-client="ca-pub-7828333725993554"
+  //         data-ad-slot="3508773082"
+  //         data-ad-format="auto"
+  //         data-full-width-responsive="true"></ins>
+  //     <script>
+  //         (adsbygoogle = window.adsbygoogle || []).push({});
+  //     </script>`,
+  // pageT:
+  //   `<!-- 固定100% * 90px可显示，max-height:90px未见显示-->
+  //    <ins class="adsbygoogle"
+  //         style="display:inline-block;width:100%;max-height:90px"
+  //         data-ad-client="ca-pub-7828333725993554"
+  //         data-ad-slot="6625304284"></ins>
+  //     <script>
+  //         (adsbygoogle = window.adsbygoogle || []).push({});
+  //     </script>`,
+  // // pageTshowMode: 'article',
+  // pageB:
+  //   `<!-- 横向自适应 -->
+  //     <ins class="adsbygoogle"
+  //         style="display:block"
+  //         data-ad-client="ca-pub-7828333725993554"
+  //         data-ad-slot="6620245489"
+  //         data-ad-format="auto"
+  //         data-full-width-responsive="true"></ins>
+  //     <script>
+  //         (adsbygoogle = window.adsbygoogle || []).push({});
+  //     </script>`,
   // pageBshowMode: 'article',
   // windowLB: // 会遮挡部分侧边栏
   //   `<!-- 固定200*200px -->
@@ -132,20 +135,19 @@ module.exports = {
   //     <script>
   //         (adsbygoogle = window.adsbygoogle || []).push({});
   //     </script>`,
-  windowRB:
-    `<!-- 固定160*160px -->
-      <ins class="adsbygoogle"
-          style="display:inline-block;max-width:160px;max-height:160px"
-          data-ad-client="ca-pub-7828333725993554"
-          data-ad-slot="8377369658"></ins>
-      <script>
-          (adsbygoogle = window.adsbygoogle || []).push({});
-      </script>
-      `,
+  // windowRB:
+  //   `<!-- 固定160*160px -->
+  //     <ins class="adsbygoogle"
+  //         style="display:inline-block;max-width:160px;max-height:160px"
+  //         data-ad-client="ca-pub-7828333725993554"
+  //         data-ad-slot="8377369658"></ins>
+  //     <script>
+  //         (adsbygoogle = window.adsbygoogle || []).push({});
+  //     </script>
+  //     `,
 }
 
-
-// module.exports = {
+// const htmlModule = {
 //   homeSidebarB: `<div style="width:100%;height:100px;color:#fff;background: #eee;">自定义模块测试</div>`,
 //   sidebarT: `<div style="width:100%;height:100px;color:#fff;background: #eee;">自定义模块测试</div>`,
 //   sidebarB: `<div style="width:100%;height:100px;color:#fff;background: #eee;">自定义模块测试</div>`,
@@ -154,3 +156,5 @@ module.exports = {
 //   windowLB: `<div style="width:100%;height:100px;color:#fff;background: #eee;">自定义模块测试</div>`,
 //   windowRB: `<div style="width:100%;height:100px;color:#fff;background: #eee;">自定义模块测试</div>`,
 // }
+
+export default htmlModule
