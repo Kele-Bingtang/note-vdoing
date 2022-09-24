@@ -1,5 +1,5 @@
 // 框架导航栏
-module.exports =  {
+export default {
   text: '框架', link: '/frames/',
   items: [
     {

@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   text: '更多',
   items: [
     { text: '轮子工具', link: '/whells-use/' },

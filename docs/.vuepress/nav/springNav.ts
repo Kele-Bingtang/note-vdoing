@@ -1,4 +1,4 @@
-module.exports =  {
+export default {
   text: 'Spring生态', link: '/spring-ecology/',
   items: [
     { text: 'Spring', link: '/spring/' },

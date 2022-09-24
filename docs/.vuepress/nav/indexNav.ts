@@ -1,5 +1,5 @@
 // 索引导航
-module.exports = {
+export default {
   text: '索引', link: '/archives/',
   items: [
     { 

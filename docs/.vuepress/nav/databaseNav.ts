@@ -1,5 +1,5 @@
 // 数据库导航栏
-module.exports = {
+export default {
   text: '数据库', link: '/database/',
   items: [
     {

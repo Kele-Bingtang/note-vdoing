@@ -1,5 +1,5 @@
 // 前端导航
-module.exports = {
+export default {
   text: '前端', link: '/front/',
   items: [
     {

@@ -1,5 +1,5 @@
 // 微服务导航栏
-module.exports = {
+export default {
   text: '微服务', link: '/clouds/',
   items: [
     {

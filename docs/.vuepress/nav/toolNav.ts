@@ -1,5 +1,5 @@
 // 工具导航栏
-module.exports =  {
+export default {
   text: '工具', link: '/tool/',
   items: [
     {

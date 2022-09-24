@@ -1,5 +1,5 @@
 // 开发指南
-module.exports = {
+export default {
   text: '开发', link: '/dev-guide/',
   items: [
     { text: '设计模式', link: '/design-pattern/' },
