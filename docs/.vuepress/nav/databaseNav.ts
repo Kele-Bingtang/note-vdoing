@@ -14,7 +14,7 @@ export default {
       items: [
         { text: 'Redis', link: '/redis/' },
         { text: 'ElasticSearch', link: '/es/' },
-        { text: 'MongoDB', link: '/mongodb/' },
+        // { text: 'MongoDB', link: '/mongodb/' },
       ]
     },
   ]

@@ -2,14 +2,14 @@
 export default {
   text: '前端', link: '/front/',
   items: [
-    {
-      text: '基础',
-      items: [
-        { text: 'Html', link: '/html/' },
-        { text: 'css', link: '/css/' },
-        { text: 'JavaScript', link: '/javascript/' },
-      ]
-    },
+    // {
+    //   text: '基础',
+    //   items: [
+    //     { text: 'Html', link: '/html/' },
+    //     { text: 'css', link: '/css/' },
+    //     { text: 'JavaScript', link: '/javascript/' },
+    //   ]
+    // },
     {
       text: '进阶',
       items: [

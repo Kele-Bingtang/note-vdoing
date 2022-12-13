@@ -15,10 +15,9 @@ export default {
       items: [
         { text: '收藏', link: '/whell/web/' },
         { text: '关于', link: '/about/website/introduce/' },
+        { text: 'Admin 模板', link: 'https://admin.youngkbt.cn' },
       ]
     },
   ]
 }
-
-
 
