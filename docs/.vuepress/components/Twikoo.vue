@@ -29,6 +29,9 @@ export default {
       // 404 页面、不同的标题会触发路由，禁止掉
       if (
         this.$route.path == "/" ||
+        this.$route.path == "/archives/" ||
+        this.$route.path == "/categories/" ||
+        this.$route.path == "/tags/" ||
         this.$route.hash != "" ||
         this.isFourZeroFour(to)
       ) {
