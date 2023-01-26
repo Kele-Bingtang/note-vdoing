@@ -1,9 +1,8 @@
 <template>
-  <div id="tcomment"></div>
+    <div id="tcomment"></div>
 </template>
 <script>
 let waitTime = 700; // 页面加载后多少毫秒后加载评论区（如果是 0ms，可能会报错）
-let archives = "/archives/"; // 归档页的 permalink
 export default {
   data() {
     return {
@@ -16,7 +15,7 @@ export default {
     if (
       (this.$frontmatter.comment == undefined || this.$frontmatter.comment) &&
       this.$route.path != "/" &&
-      this.$route.path != archives &&
+      !this.otherPage(this.$route) &&
       !this.isFourZeroFour(this.$route)
     ) {
       setTimeout(() => {
@@ -29,9 +28,7 @@ export default {
       // 404 页面、不同的标题会触发路由，禁止掉
       if (
         this.$route.path == "/" ||
-        this.$route.path == "/archives/" ||
-        this.$route.path == "/categories/" ||
-        this.$route.path == "/tags/" ||
+        this.otherPage(this.$route) ||
         this.$route.hash != "" ||
         this.isFourZeroFour(to)
       ) {
@@ -45,7 +42,7 @@ export default {
       // 初始化评论条件：来自首页，来自归档页、来自 frontmatter 的 comment: true 的文章页
       if (
         from.path == "/" ||
-        from.path == archives ||
+        this.otherPage(from) ||
         !this.getCommentByFrontmatter(from)
       ) {
         this.firstLoad
@@ -123,12 +120,24 @@ export default {
       });
       return flag;
     },
+    // 其他页面
+    otherPage(route) {
+      if(
+        route.path == "/archives/" ||
+        route.path == "/categories/" ||
+        route.path == "/tags/"
+      ) {
+        return true;
+      }else {
+        return false;
+      }
+    }
   },
 };
 </script>
 
 <style>
 .twikoo .tk-comments {
-  margin-top: 20px;
+    margin-top: 20px;
 }
 </style>
