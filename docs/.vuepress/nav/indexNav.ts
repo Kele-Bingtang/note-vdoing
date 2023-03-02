@@ -15,7 +15,8 @@ export default {
       items: [
         { text: '收藏', link: '/whell/web/' },
         { text: '关于', link: '/about/website/introduce/' },
-        { text: 'Admin 模板', link: 'https://admin.youngkbt.cn' },
+        { text: 'Vue2-Admin', link: 'https://vue2-admin.youngkbt.cn/' },
+        { text: 'Vue3-Admin（完善）', link: 'https://vue3-admin.youngkbt.cn/' },
       ]
     },
   ]
