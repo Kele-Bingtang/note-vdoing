@@ -8,7 +8,7 @@ const link: string = "https://www.youngkbt.cn";
 // 底部的 | 后的描述
 const footerTitle: string = 'blog';
 // 头像图片
-const avatar: string = 'https://cdn.staticaly.com/gh/Kele-Bingtang/static@master/user/avatar2.png'
+const avatar: string = 'https://cdn.jsdelivr.net/gh/Kele-Bingtang/static/user/avatar2.png'
 // 头像下的昵称
 const name: string = 'Shp Liu'
 // 头像下的签名

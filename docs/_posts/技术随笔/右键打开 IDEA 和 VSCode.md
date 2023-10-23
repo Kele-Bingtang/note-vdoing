@@ -16,7 +16,7 @@ tags:
 
 本内容介绍如何快速通过 VSCode、IDEA 打开指定的文件夹或者文件：
 
-![image-20220728202435414](https://cdn.staticaly.com/gh/Kele-Bingtang/static@master/img/轮子使用/20220728202828.png)
+![image-20220728202435414](https://cdn.jsdelivr.net/gh/Kele-Bingtang/static/img/轮子使用/20220728202828.png)
 
 本内容的目录虽然有多个，但是配置就三步：
 
@@ -41,7 +41,7 @@ tags:
 
 2. 单击新建的 VSCode，右边出现一个名称叫 <mark>(默认)</mark> 的字符串值，双击 <mark>(默认)</mark>，然后在弹出的窗口中，数值数据的文本框写 **通过 Code 打开**，当然你也可以按照自己喜欢的名称填写，到时候右键的适合就会显示这个文本框内容
 
-   ![image-20220728203405268](https://cdn.staticaly.com/gh/Kele-Bingtang/static@master/img/%E8%BD%AE%E5%AD%90%E4%BD%BF%E7%94%A8/20220728203406.png)
+   ![image-20220728203405268](https://cdn.jsdelivr.net/gh/Kele-Bingtang/static/img/%E8%BD%AE%E5%AD%90%E4%BD%BF%E7%94%A8/20220728203406.png)
 
 3. 接着配置 VSCode 的图标，这样右键的时候，就会显示 VSCode 的图标，方便识别
 
@@ -49,7 +49,7 @@ tags:
 
      如我的 VSCode 软件路径为 `"D:\ITArea\软件区\VSCode\Microsoft VS Code\Code.exe"`
 
-   ![image-20220728203720328](https://cdn.staticaly.com/gh/Kele-Bingtang/static@master/img/%E8%BD%AE%E5%AD%90%E4%BD%BF%E7%94%A8/20220728203721.png)
+   ![image-20220728203720328](https://cdn.jsdelivr.net/gh/Kele-Bingtang/static/img/%E8%BD%AE%E5%AD%90%E4%BD%BF%E7%94%A8/20220728203721.png)
 
 4. 接着我们需要配置 VSCode 软件的路径，这样右键点击后，就会自动打开 VSCode 软件：
 
@@ -61,7 +61,7 @@ tags:
 
    如若 `"%V"` 失效，则改为 `"%1"`
 
-   ![image-20220728203907543](https://cdn.staticaly.com/gh/Kele-Bingtang/static@master/img/%E8%BD%AE%E5%AD%90%E4%BD%BF%E7%94%A8/20220728203910.png)
+   ![image-20220728203907543](https://cdn.jsdelivr.net/gh/Kele-Bingtang/static/img/%E8%BD%AE%E5%AD%90%E4%BD%BF%E7%94%A8/20220728203910.png)
 
 ### 右键 VSCode 打开文件夹
 
@@ -200,7 +200,7 @@ IDEA 右键打开和 VSCode 右键打开的配置一样，只需要更换 IDEA �
 
 配置完后，可以在桌面、文件夹、文件夹内、文件进行鼠标右键，看看是否有配置成功。
 
-![image-20220728202435414](https://cdn.staticaly.com/gh/Kele-Bingtang/static@master/img/轮子使用/20220728202828.png)
+![image-20220728202435414](https://cdn.jsdelivr.net/gh/Kele-Bingtang/static/img/轮子使用/20220728202828.png)
 
 ## 建议
 
