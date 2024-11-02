@@ -1,5 +1,5 @@
 ---
-title: Github - 好看的主页
+title: 技术随笔 - Github - 好看的主页
 date: 2022-01-09 17:35:33
 permalink: /github/index/
 titleTag: 原创

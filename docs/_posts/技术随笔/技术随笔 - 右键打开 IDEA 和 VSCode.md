@@ -1,5 +1,5 @@
 ---
-title: 右键打开 IDEA 和 VSCode
+title: 技术随笔 - 右键打开 IDEA 和 VSCode
 date: 2022-07-28 09:31:06
 permalink: /right-click/idea-vscode/
 sidebar: auto
