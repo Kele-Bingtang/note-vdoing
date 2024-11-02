@@ -5,9 +5,9 @@ permalink: /github/index/
 titleTag: 原创
 sidebar: auto
 categories: 
-  - 随笔
+  - 技术随笔
 tags: 
-  - 
+  - 技术随笔
 ---
 
 ::: note
